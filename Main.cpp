@@ -8,7 +8,6 @@
 #include "Scoreboard.h"
 #include "Globals.h"
 
-void MusicSwitch(const char * fileName, char button);
 void DebugSwitch(char button);
 void ShakeSwitch(char button);
 
@@ -39,7 +38,6 @@ int main()
 
 	while (!GetAsyncKeyState(VK_ESCAPE))
 	{
-		MusicSwitch("bin//stars.wav", 'M');
 		DebugSwitch('D');
 		ShakeSwitch('S');
 
@@ -56,7 +54,7 @@ int main()
 
         txSetColor(TX_LIGHTGREEN);
 
-		txDrawText(txGetExtentX() / 10 * 7, 10, txGetExtentX(), 100, "[D] - Отладка (Любая клавиша для следующей итерации)\n[S] - Режим \"Шейкер\"\n[M] - Музыка вкл\\выкл");
+		txDrawText(txGetExtentX() / 10 * 7, 10, txGetExtentX(), 100, "[D] - Отладка (Любая клавиша для следующей итерации)\n[S] - Режим \"Шейкер\"");
 
 		if (DEBUG_) _getch();
 
@@ -176,30 +174,6 @@ void Ball::VelRedefine()
 	{
 		wasPressed = true;
 		newVel.setVal(txMousePos());
-	}
-}
-
-void MusicSwitch(const char * fileName, char button)
-{
-	static bool buttonClick = false;
-	static bool music = false;
-
-	if (GetAsyncKeyState(button) && !music && !buttonClick)
-	{
-		buttonClick = true;
-		music = true;
-		txPlaySound(fileName, SND_LOOP);
-		printf("\a");
-	}
-	else if (GetAsyncKeyState(button) && music && !buttonClick)
-	{
-		buttonClick = true;
-		music = false;
-		txPlaySound(NULL);
-	}
-	else if (!GetAsyncKeyState(button))
-	{
-		buttonClick = false;
 	}
 }
 
