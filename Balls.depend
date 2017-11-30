@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1511993782 source:c:\users\user\desktop\balls\balls\ball.cpp
+	"Ball.h"
+
+1512025176 c:\users\user\desktop\balls\balls\ball.h
+	"TXLib.h"
+	"MathVector.h"
+	"Globals.h"
+
+1512027251 c:\users\user\desktop\balls\balls\mathvector.h
+	<cmath>
+	<iostream>
+	"TXLib.h"
+
+1511993764 c:\users\user\desktop\balls\balls\globals.h
+
+1511992920 source:c:\users\user\desktop\balls\balls\ballmanager.cpp
+	"BallManager.h"
+	"Globals.h"
+
+1511992986 c:\users\user\desktop\balls\balls\ballmanager.h
+	"Ball.h"
+	<vector>
+
+1511993784 source:c:\users\user\desktop\balls\balls\globals.cpp
+	"Globals.h"
+
+1512027178 source:c:\users\user\desktop\balls\balls\mathvector.cpp
+	"MathVector.h"
+
+1510334786 source:c:\users\user\desktop\balls\balls\scoreboard.cpp
+	"Scoreboard.h"
+
+1512025212 c:\users\user\desktop\balls\balls\scoreboard.h
+	"TXLib.h"
+	"Ball.h"
+
+1511993782 source:d:\balls cbp\ball.cpp
+	"Ball.h"
+
+1512025178 d:\balls cbp\ball.h
+	"TXLib.h"
+	"MathVector.h"
+	"Globals.h"
+
+1512027252 d:\balls cbp\mathvector.h
+	<cmath>
+	<iostream>
+	"TXLib.h"
+
+1511993764 d:\balls cbp\globals.h
+
+1511992920 source:d:\balls cbp\ballmanager.cpp
+	"BallManager.h"
+	"Globals.h"
+
+1511992986 d:\balls cbp\ballmanager.h
+	"Ball.h"
+	<vector>
+
+1511993784 source:d:\balls cbp\globals.cpp
+	"Globals.h"
+
+1512027180 source:d:\balls cbp\mathvector.cpp
+	"MathVector.h"
+
+1510334786 source:d:\balls cbp\scoreboard.cpp
+	"Scoreboard.h"
+
+1512025214 d:\balls cbp\scoreboard.h
+	"TXLib.h"
+	"Ball.h"
+
+1511992920 source:c:\users\chere\onedrive\документы\collider\collider--txlib-example-\ballmanager.cpp
+	"BallManager.h"
+	"Globals.h"
+
+1511992986 c:\users\chere\onedrive\документы\collider\collider--txlib-example-\ballmanager.h
+	"Ball.h"
+	<vector>
+
+1512025178 c:\users\chere\onedrive\документы\collider\collider--txlib-example-\ball.h
+	"TXLib.h"
+	"MathVector.h"
+	"Globals.h"
+
+1512027252 c:\users\chere\onedrive\документы\collider\collider--txlib-example-\mathvector.h
+	<cmath>
+	<iostream>
+	"TXLib.h"
+
+1511993764 c:\users\chere\onedrive\документы\collider\collider--txlib-example-\globals.h
+
+1511993784 source:c:\users\chere\onedrive\документы\collider\collider--txlib-example-\globals.cpp
+	"Globals.h"
+
+1512027180 source:c:\users\chere\onedrive\документы\collider\collider--txlib-example-\mathvector.cpp
+	"MathVector.h"
+
+1510334786 source:c:\users\chere\onedrive\документы\collider\collider--txlib-example-\scoreboard.cpp
+	"Scoreboard.h"
+
+1512025214 c:\users\chere\onedrive\документы\collider\collider--txlib-example-\scoreboard.h
+	"TXLib.h"
+	"Ball.h"
+
+1512044079 source:c:\users\chere\onedrive\документы\collider\collider--txlib-example-\main.cpp
+	"TXLib.h"
+	"Ball.h"
+	"BallManager.h"
+	"Scoreboard.h"
+	"Globals.h"
+
